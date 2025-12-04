@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glow-effect {
+    box-shadow: 0 0 15px 5px rgba(160, 85, 255, 0.3), 0 0 30px 10px rgba(160, 85, 255, 0.2);
+  }
+
+  .grid-bg {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 4rem 4rem;
+  }
+
+  .radial-gradient-bg {
+      background-image: radial-gradient(circle at top, rgba(106, 27, 154, 0.4) 0%, transparent 40%);
+  }
+  
+  .tech-icon {
+    @apply absolute w-12 h-12 bg-[#1a1125] border border-white/20 rounded-full flex items-center justify-center shadow-[0_0_10px_rgba(190,56,172,0.3)];
+  }
+}
