@@ -2,6 +2,7 @@ import { useState } from 'react';
 import finease from '../assets/finease.png'
 import warmpaws from '../assets/warmpaws.png'
 import nextshop from '../assets/nextshop.png'
+import smarthome from '../assets/Smart-home.png'
 const ProjectCard = ({ title, description, image, repoLink, demoLink }) => (
   <div className="bg-white/30 dark:bg-white/5 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-xl shadow-gray-900/5 dark:shadow-black/20 backdrop-blur-xl p-6 flex flex-col transition-all duration-300 hover:-translate-y-1">
     <div className="mb-4">
@@ -39,6 +40,13 @@ const Projects = () => {
   const [filter, setFilter] = useState('all');
 
   const projects = [
+    {
+      title: 'Smart-Home',
+      description: 'Smart Home is a platform for booking and managing home decoration services with secure payments.',
+      image: smarthome,
+      repoLink: 'https://github.com/Noman6542/Smart-Home',
+      demoLink: 'https://smart-home-28254.web.app/',
+    },
     {
       title: 'FinEase',
       description: 'A modern finance management tool to track expenses, budgets, and savings efficiently.',

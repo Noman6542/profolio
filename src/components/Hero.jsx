@@ -30,7 +30,7 @@ const Hero = () => {
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6">
             <a
-              href="/resume update one.pdf"
+              href="/Resume_of_Noman.pdf"
               download="Md-Abdullah-Al-Noman-Resume.pdf"
               
               className="inline-flex items-center justify-center px-8 py-3 font-medium text-white bg-gradient-to-r from-purple-600 to-pink-500 rounded-full hover:from-purple-700 hover:to-pink-600 transition-all duration-300 shadow-lg shadow-purple-500/30"
