@@ -3,7 +3,7 @@ import finease from '../assets/finease.png'
 import warmpaws from '../assets/warmpaws.png'
 import nextshop from '../assets/nextshop.png'
 import smarthome from '../assets/Smart-home.png'
-import smarthome from '../assets/'
+import admission from '../assets/Admission-bridge.png'
 const ProjectCard = ({ title, description, image, repoLink, demoLink }) => (
   <div className="bg-white/30 dark:bg-white/5 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-xl shadow-gray-900/5 dark:shadow-black/20 backdrop-blur-xl p-6 flex flex-col transition-all duration-300 hover:-translate-y-1">
     <div className="mb-4">
@@ -72,7 +72,7 @@ const Projects = () => {
     {
       title: 'Admission Bridge',
       description: 'A modern web platform for exploring international universities and applying based on GPA and IELTS eligibility, built with Next.js, React, Node.js, and MySQL.',
-      image: nextshop,
+      image: admission,
       repoLink: 'https://github.com/Noman6542/The-Admission-Bridge',
       demoLink: 'https://the-admission-bridge-two.vercel.app/',
     }
