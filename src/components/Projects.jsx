@@ -68,6 +68,13 @@ const Projects = () => {
       repoLink: 'https://github.com/Noman6542/NextShop',
       demoLink: 'https://next-shop-psi-ten.vercel.app/',
     },
+    {
+      title: 'Admission Bridge',
+      description: 'A modern web platform for exploring international universities and applying based on GPA and IELTS eligibility, built with Next.js, React, Node.js, and MySQL.',
+      image: nextshop,
+      repoLink: 'https://github.com/Noman6542/The-Admission-Bridge',
+      demoLink: 'https://the-admission-bridge-two.vercel.app/',
+    }
   ];
 
   const filteredProjects = projects.filter(p => filter === 'all' || p.type === filter);
